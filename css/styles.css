@@ -112,6 +112,8 @@ a:hover{
         width: 8%;
         position: absolute;
         left: 20%;
+        top: 20%;
+
     }
     .top,.bottom{
         display: none;
