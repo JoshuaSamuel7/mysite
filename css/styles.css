@@ -63,18 +63,49 @@ a:hover{
     position: absolute;
     left: 250px;
     top: 60%;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1000;
 }
 .top{
     position: absolute;
     right: 350px;
     bottom: 65%;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1000;
 }
+/* @keyframes move {
+    from{
+        right: 350px;
+    }
+    to{
+        right: 450px;
+    }
+}
+@keyframes slide {
+    from{
+        right: 350px;
+    }
+    to{
+        right: 450px;
+    }
+} */
 .sun{
     height: 70px;
     width: 5%;
     position: absolute;
     bottom:70%;
     left: 30%;
+    animation-name: rotate;
+    animation-duration: 1000s;
+}
+@keyframes rotate {
+    10%{
+    transform: rotate(5000deg);
+    }
 }
 @media (max-width:1024px) {
     .sun{
