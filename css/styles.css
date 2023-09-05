@@ -109,7 +109,9 @@ a:hover{
 }
 @media (max-width:1024px) {
     .sun{
-        display: none;
+        width: 8%;
+        position: absolute;
+        left: 20%;
     }
     .top,.bottom{
         display: none;
