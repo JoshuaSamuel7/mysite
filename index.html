@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- jQuery CDN - Slim version (=without AJAX) -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -62,16 +63,16 @@
   </nav>
   <div class="hd">
     <div class="container-fluid">
-      <img class="sun" src="https://cdn-icons-png.flaticon.com/128/869/869869.png" alt="">
-      <img class="top" src="images/cloud.png">
+      <img data-aos="fade-down" class="sun" src="https://cdn-icons-png.flaticon.com/128/869/869869.png" alt="">
+      <img data-aos="fade-right"class="top" src="images/cloud.png">
       <h1>I'm Joshua Samuel</h1>
       <h3>Student</h3>
-      <img class="bottom" src="images/cloud.png">
-      <img class="mt" src="images/mountain.png" alt="">
+      <img data-aos="fade-left" class="bottom" src="images/cloud.png">
+      <img data-aos="fade-up"class="mt" src="images/mountain.png" alt="">
     </div>
   </div>
   <div class="middle-container">
-    <div class="profile">
+    <div data-aos="fade-up" class="profile">
       <h2>Hello.</h2>
       <img style="clip-path: circle(); width: 150 px; height: 250px;" src="images/my.jpeg" alt="Joshua">
       <div class="intro">
@@ -80,25 +81,25 @@
       </div>
     </div>
     <hr>
-    <div class="skills">
+    <div data-aos="fade-down" class="skills">
       <h2>My Skills.</h2>
-      <div class="skill-row">
+      <div data-aos="fade-right" class="skill-row">
         <img class="skimg" src="https://cdn-icons-png.flaticon.com/128/10938/10938495.png" alt="">
         <h3>Development & Coding</h3>
         <p>I have an enormous amount of intrest towards development of webpages and playing with various codes.</p>
       </div>
       <br><br>
-      <div class="skill-row">
+      <div data-aos="fade-left" class="skill-row">
         <img class="skimg1" src="https://cdn-icons-png.flaticon.com/128/10320/10320431.png" alt="">
         <h3>Gaming</h3>
         <p>I also do play various games at free times and also have an intrest of learning game development.</p>
       </div>
-      <div class="skill-row3">
+      <div data-aos="fade-down" class="skill-row3">
         <h3>Will be updated more..</h3>
       </div>
     </div>
     <hr>
-    <div class="contact-me">
+    <div data-aos="fade-down-right" class="contact-me">
       <h2>Get In Touch</h2>
       <h3>If you want to reach out to me , Please use these links</h3>
       <a href="contact.html" class="tron">Contact Me</a>
@@ -112,5 +113,9 @@
     <p class="copy">© Joshua Samuel.</p>
   </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+     AOS.init();
+  </script>
 </body>
 </html>
