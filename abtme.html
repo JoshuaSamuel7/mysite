@@ -26,6 +26,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
     integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://kit.fontawesome.com/b73b76268c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -47,7 +48,7 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
@@ -61,14 +62,14 @@
       </ul>
     </div>
   </nav>
-  <div class="abthead">
+  <div data-aos="fade-down" class="abthead">
     <h1>About me</h1>
   </div>
   <div class="row">
-    <div class="col-lg-5  abph">
+    <div data-aos="fade-right" class="col-lg-5 col-sm-12 abph">
       <img style="clip-path: circle(); width: 800 px; height: 400px; position: relative;" src="images/my2.jpeg" alt="">
     </div>
-    <div class="col-lg-7 intro-1">
+    <div data-aos="fade-left" class="col-lg-7  col-sm-12 intro-1">
       <h4>I'm <strong>Joshua Samuel S</strong></h4>
       <p>I'm currently aiming an <b>B.E</b> degree in <b>Computer Science</b>. I like to develop new things as it gives
         me
@@ -83,6 +84,10 @@
       </p>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+     AOS.init();
+  </script>
 </body>
 
 </html>
