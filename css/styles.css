@@ -37,6 +37,7 @@ h1{
     font-size: 3rem;
     
 }
+
 h3{
     color: #11999E;
     font-size: 1.5rem;
@@ -225,7 +226,7 @@ a:hover{
 }
 .abthead{
     padding: 1.5% 0;
-    background-color: #FFF5E0;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
 }
 .abph{
     padding-top: 10%;
@@ -235,16 +236,20 @@ a:hover{
 }
 .box{
     height: 800px;
-    width: 50%;
-    margin: 0 5%;
+    width: 20%;
+    margin: 0 10%;
 }
+.contb{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );}
 .card{
     background-color: #FFF5E0;
     height: 250px;
+    width: 50%;
 }
 .card-body{
     text-align: center;
     margin-top: 35px;
+
 
 }
 .icon{
@@ -257,4 +262,52 @@ a:hover{
     .box{
         width: 80%;
     }
+}
+.todoimg{
+    border-radius: 20%;
+    height: 250px;
+    width: 400px;
+}
+.bdp{
+    background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );    width: 100%;
+}
+.i{
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+a p{
+    color: #fff;
+    font-size: 1.1rem;
+    padding-top: 5%;
+}
+#i1descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
+#i2descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
+#i3descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
+#i4descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
+.i p{
+    line-height: 2.3;
+    padding: 2%;
 }
