@@ -108,21 +108,6 @@ a:hover{
     transform: rotate(5000deg);
     }
 }
-@media (max-width:1024px) {
-    .sun{
-        width: 8%;
-        position: absolute;
-        left: 20%;
-        top: 20%;
-    }
-    .top,.bottom{
-        display: none;
-    }
-    .mt{
-        height: 400px;
-        width: 80%;
-    }
-}
 .skill-row{
     width: 60%;
     margin: 30px auto;
@@ -145,15 +130,41 @@ a:hover{
 @media screen and (max-width:1024px) {
     body{
         width: 100%;
+        overflow-x: hidden;
+    }
+    .sun{
+        width: 15%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+    }
+    .top{
+        width: 20%;
+        position: absolute;
+        right: 10%;
+        top: 40%;
+    }
+    .bottom{
+        width: 20%;
+        position: absolute;
+        left: 10%;
+        top: 80%;
+    }
+    .mt{
+        width:100%;
+        height: 300px;
     }
     .intro{
-        width: 100%;
-        margin: 0 0;
+        width: 80%;
+        margin: 0 30px;
+
     }
     .abph{
         width: 600px;
         height: 200px;
-        margin: 5% auto;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
     }
     .intro-1{
         margin: 40% 1%;
@@ -164,13 +175,17 @@ a:hover{
     .skill-row{
         width: 100%;
         padding: 0 20px;
-        margin: 30px auto;
+        margin: 30px 10px;
+        font-size: 1rem;
     }
     .skills{
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
         margin: 0 auto;
+    }
+    .middle-container{
+        font-size: 1rem;
     }
 }
 
