@@ -3,6 +3,7 @@
     text-align: center;
     padding-top: 290px;
     color: #BB2525;
+    overflow-x: hidden;
 }
 hr{
     margin: 80px auto;
@@ -114,10 +115,13 @@ a:hover{
     text-align: left;
     line-height: 2;
     font-size: 1.2rem;
+    overflow-x: hidden;
+
 }
 .skimg{
     float:left;
     padding-right: 30px;
+    
 }
 .skimg1{
     float:right;
@@ -130,7 +134,12 @@ a:hover{
 @media screen and (max-width:1024px) {
     body{
         overflow-x: hidden;
-        width: 100%;
+    }
+    .hd{
+        overflow-x: hidden;
+    }
+    .middle-container{
+        overflow-x: hidden;
     }
     .sun{
         width: 15%;
@@ -156,7 +165,6 @@ a:hover{
     }
     .intro{
         width: 80%;
-        margin: 0 30px;
 
     }
     .abph{
@@ -165,18 +173,19 @@ a:hover{
         display: flex;
         justify-content: center;
         margin: 50px 0;
+
     }
     .intro-1{
-        margin: 40% 1%;
+        margin: 40% 0;
     }
     .intro-1 h4{
         text-align: center;
     }
     .skill-row{
         width: 100%;
-        padding: 0 20px;
-        margin: 30px 10px;
         font-size: 1rem;
+        overflow-x: hidden;
+
     }
     .skills{
         width: 100%;
