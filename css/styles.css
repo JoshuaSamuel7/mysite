@@ -129,8 +129,8 @@ a:hover{
 }
 @media screen and (max-width:1024px) {
     body{
-        width: 100%;
         overflow-x: hidden;
+        width: 100%;
     }
     .sun{
         width: 15%;
