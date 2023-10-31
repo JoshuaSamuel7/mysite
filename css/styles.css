@@ -176,7 +176,8 @@ a:hover{
 
     }
     .intro-1{
-        margin: 40% 0;
+        margin-top: 150px;
+        padding:20px 50px;
     }
     .intro-1 h4{
         text-align: center;
@@ -196,8 +197,18 @@ a:hover{
     .middle-container{
         font-size: 1rem;
     }
+    .abtmecont{
+        overflow-x: hidden;
+    }
+    .mainpic{
+        width: 80%;
+        height: 100px;
+    }
 }
+.mainpic{
+    clip-path: circle(); width: 800 px; height: 400px;
 
+}
 .tron {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
