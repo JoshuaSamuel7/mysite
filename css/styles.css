@@ -342,6 +342,12 @@ a p{
     width: 80%;
     margin:5% 10%;
 }
+#i5descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
 .i p{
     line-height: 2.3;
     padding: 2%;
