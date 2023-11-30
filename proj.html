@@ -65,6 +65,14 @@
       ele.style.display='block';
     }
   }
+  function drop5(){
+    const ele=document.getElementById('i5descp');
+    if(ele.style.display=='block'){
+      ele.style.display='none';
+    }else{
+      ele.style.display='block';
+    }
+  }
   </script>
   <body>
     <!-- <div>
@@ -177,6 +185,28 @@
 
       </div>
       </div>
+      <div class="row">
+        <div class="i col-lg-6" data-aos="fade-up">
+          <img src="images/curr.png" class="todoimg"><br>
+          <a href="https://currency-converter-llk6.onrender.com/"><p>Currency Converter</p></a>
+          <div class="drop">
+            <input type="button" value="Description" class="btn btn-danger" onclick="drop5()">
+              <p id="i5descp">A currency converter with daily exchange rates with change dynamically everyday. An API integrated project which allows to query exchange amount of that day. Its available with various currency denominations. A simple frontend project and a complex backend with API's using Express.        <a href="https://currency-converter-llk6.onrender.com/">Click Here</a>
+            </p>
+            </ul>
+        </div>
+        </div> 
+        <!-- <div class="i col-lg-6" data-aos="fade-up">
+          <img src="images/dice.png" class="todoimg"><br>
+          <a href="dice/dicee.html"><p>Dice</p></a>
+          <div class="drop">
+            <input type="button" value="Description" class="btn btn-danger" onclick="drop4()">
+              <p id="i4descp">This is Dice game which occurs between two players which helps to end descions using a simple dice game. This is crafted using Javascript and basic CSS.        <a href="dice/dicee.html">CLick Here</a>
+            </p>
+            </ul>
+  
+        </div> -->
+        </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
