@@ -206,7 +206,7 @@ a:hover{
     }
 }
 .mainpic{
-    clip-path: circle(); width: 800 px; height: 400px;
+    clip-path: circle(); width: 70vh; height: 30vh;
     filter: blur(0.5rem);
 
 }
