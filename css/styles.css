@@ -207,6 +207,7 @@ a:hover{
 }
 .mainpic{
     clip-path: circle(); width: 800 px; height: 400px;
+    filter: blur(0.5rem);
 
 }
 .tron {
