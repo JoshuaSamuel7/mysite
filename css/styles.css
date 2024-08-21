@@ -299,7 +299,6 @@ a:hover{
 }
 .bdp{
     background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );    
-    overflow-x: hidden;
 }
 .i{
     margin: 5% 0;
@@ -307,6 +306,7 @@ a:hover{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 a p{
     color: #fff;
@@ -338,6 +338,12 @@ a p{
     margin:5% 10%;
 }
 #i5descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
+#i6descp{
     background-color: #F3F5F5;
     display: none;
     width: 80%;

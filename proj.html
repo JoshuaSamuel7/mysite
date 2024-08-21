@@ -73,6 +73,14 @@
       ele.style.display='block';
     }
   }
+  function drop6(){
+    const ele=document.getElementById('i6descp');
+    if(ele.style.display=='block'){
+      ele.style.display='none';
+    }else{
+      ele.style.display='block';
+    }
+  }
   </script>
   <body>
     <!-- <div>
@@ -144,11 +152,11 @@
       <div class="row">
       <div class="i col-lg-6" data-aos="fade-down">
         <img src="images/blog.png" class="todoimg"><br>
-        <a href="https://blog-ui0s.onrender.com/"><p>Blog</p></a>
+        <a href="https://joshuasblog.vercel.app/"><p>Blog</p></a>
         <div class="drop">
           <input type="button" value="Description" class="btn btn-danger" onclick="drop()">
             <p id="i1descp">A personal blog site which allows the personal user to publish his activities as a blogger. One can record his day to day activities in here. This  site has inbuilt authorization mechanisms which checks the users before composing a blog. This is integrated with a Mongo database which stores all the contents posted by the blogger. If you want to experience this
-              <a href="https://blog-ui0s.onrender.com/">Click Here</a></p>
+              <a href="https://joshuasblog.vercel.app/">Click Here</a></p>
           </ul>
       </div>
       </div>
@@ -176,7 +184,7 @@
       </div> 
       <div class="i col-lg-6" data-aos="fade-up">
         <img src="images/dice.png" class="todoimg"><br>
-        <a href="dice/dicee.html"><p>Dice</p></a>
+        <a href="dice/dicee.html"><p>Dice Game</p></a>
         <div class="drop">
           <input type="button" value="Description" class="btn btn-danger" onclick="drop4()">
             <p id="i4descp">This is Dice game which occurs between two players which helps to end descions using a simple dice game. This is crafted using Javascript and basic CSS.        <a href="dice/dicee.html">CLick Here</a>
@@ -196,17 +204,16 @@
             </ul>
         </div>
         </div> 
-        <!-- <div class="i col-lg-6" data-aos="fade-up">
-          <img src="images/dice.png" class="todoimg"><br>
-          <a href="dice/dicee.html"><p>Dice</p></a>
+        <div class="i col-lg-6" data-aos="fade-up">
+          <img src="images/product.png" class="todoimg"><br>
+          <a href="https://joshuasamuel7.github.io/productpage/"><p>Products Site</p></a>
           <div class="drop">
-            <input type="button" value="Description" class="btn btn-danger" onclick="drop4()">
-              <p id="i4descp">This is Dice game which occurs between two players which helps to end descions using a simple dice game. This is crafted using Javascript and basic CSS.        <a href="dice/dicee.html">CLick Here</a>
+            <input type="button" value="Description" class="btn btn-danger" onclick="drop6()">
+              <p id="i6descp">A currency converter with daily exchange rates with change dynamically everyday. An API integrated project which allows to query exchange amount of that day. Its available with various currency denominations. A simple frontend project and a complex backend with API's using Express.        <a href="https://joshuasamuel7.github.io/productpage/">Click Here</a>
             </p>
             </ul>
-  
-        </div> -->
         </div>
+        </div> 
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
