@@ -355,6 +355,12 @@ a p{
     width: 80%;
     margin:5% 10%;
 }
+#i7descp{
+    background-color: #F3F5F5;
+    display: none;
+    width: 80%;
+    margin:5% 10%;
+}
 .i p{
     line-height: 2.3;
     padding: 2%;
@@ -373,5 +379,14 @@ a p{
     }
     .row{
         width: 102%;
+    }
+    #myVideo {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }

@@ -81,10 +81,18 @@
       ele.style.display = 'block';
     }
   }
+  function drop7() {
+    const ele = document.getElementById('i7descp');
+    if (ele.style.display == 'block') {
+      ele.style.display = 'none';
+    } else {
+      ele.style.display = 'block';
+    }
+  }
 </script>
 
 <body>
-  <video autoplay muted loop id="myVideo">
+  <video autoplay muted loop id="myVideo" playsinline>
     <source src="./images/1.mp4" type="video/mp4">
   </video>
   <nav class="navbar navbar-expand-lg navig">
@@ -118,6 +126,8 @@
       These sites may load slower as they are running on free server instances. It takes 30s to load. Do wait 30s for
       preview.
     </p>
+
+
     <div class="row">
       <div class="i col-lg-6" data-aos="fade-down">
         <img src="images/blog.png" class="todoimg"><br>
@@ -136,19 +146,60 @@
         </div>
       </div>
       <div class="i col-lg-6" data-aos="fade-up">
-        <img src="images/product.png" class="todoimg"><br>
-        <a href="https://joshuasamuel7.github.io/productpage/">
-          <p>Products Site</p>
+        <img src="images/weather.png" class="todoimg"><br>
+        <a href="https://joshuasweather.vercel.app/">
+          <p>Weather App</p>
         </a>
         <div class="drop">
-          <input type="button" value="Description" class="btn btn-danger" onclick="drop6()">
-          <p id="i6descp">A simple E-commerce site which supplies mobile phones contained under products page. This is achieved using HTML,CSS and Bootstrap and some functionalities are also used from FontAwesome.
-            <a href="https://joshuasamuel7.github.io/productpage/">&emsp;;&emsp;Click Here</a>
+          <input type="button" value="Description" class="btn btn-danger" onclick="drop7()">
+          <p id="i7descp">A weather app which allows users to query about the weather in thier location by entering
+            their city location. This site is set up using express at back and react at front. The weather details are
+            concurrently updated using Weather API's which makes it more effecient and easy to know the current weather
+            condition. <a href="https://joshuasweather.vercel.app/">Click Here</a>
           </p>
           </ul>
         </div>
       </div>
     </div>
+
+
+    <div class="row">
+      <div class="i col-lg-6" data-aos="fade-up">
+        <img src="images/curr.png" class="todoimg"><br>
+        <a href="https://mycurrencyconv.vercel.app/">
+          <p>Currency Converter</p>
+        </a>
+        <div class="drop">
+          <input type="button" value="Description" class="btn btn-danger" onclick="drop5()">
+          <p id="i5descp">A currency converter with daily exchange rates with change dynamically everyday. An API
+            integrated project which allows to query exchange amount of that day. Its available with various
+            currency denominations. A simple frontend project and a complex backend with API's using Express. <a
+              href="https://currency-converter-llk6.onrender.com/">Click Here</a>
+          </p>
+          </ul>
+        </div>
+      </div>
+      <div class="i col-lg-6" data-aos="fade-down">
+        <img src="images/todo.png" class="todoimg"><br>
+        <a href="https://mytodoplanner.vercel.app/">
+          <p>ToDo</p>
+        </a>
+        <div class="drop">
+          <input type="button" value="Description" class="btn btn-danger" onclick="drop2()">
+          <p id="i2descp"> This Planner app helps you manage your daily tasks. You can add new tasks by typing in the
+            input field and clicking the "+" button, and they’ll instantly appear on your list. You can also remove
+            tasks by clicking the trash icon next to each one. The app keeps your list updated in real-time, so you can
+            easily keep track of what you need to do.
+            <a href="https://mytodoplanner.vercel.app/">Click Here</a>
+          </p>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+
+
     <div class="row">
       <div class="i col-lg-6" data-aos="fade-up">
         <img src="images/news.png" class="todoimg"><br>
@@ -179,42 +230,29 @@
         </div>
       </div>
     </div>
+
+
     <div class="row">
       <div class="i col-lg-6" data-aos="fade-up">
-        <img src="images/curr.png" class="todoimg"><br>
-        <a href="https://mycurrencyconv.vercel.app/">
-          <p>Currency Converter</p>
+        <img src="images/product.png" class="todoimg"><br>
+        <a href="https://joshuasamuel7.github.io/productpage/">
+          <p>Products Site</p>
         </a>
         <div class="drop">
-          <input type="button" value="Description" class="btn btn-danger" onclick="drop5()">
-          <p id="i5descp">A currency converter with daily exchange rates with change dynamically everyday. An API
-            integrated project which allows to query exchange amount of that day. Its available with various
-            currency denominations. A simple frontend project and a complex backend with API's using Express. <a
-              href="https://currency-converter-llk6.onrender.com/">Click Here</a>
+          <input type="button" value="Description" class="btn btn-danger" onclick="drop6()">
+          <p id="i6descp">A simple E-commerce site which supplies mobile phones contained under products page. This is
+            achieved using HTML,CSS and Bootstrap and some functionalities are also used from FontAwesome.
+            <a href="https://joshuasamuel7.github.io/productpage/">&emsp;;&emsp;Click Here</a>
           </p>
           </ul>
-        </div>
-      </div>
-      <div class="i col-lg-6" data-aos="fade-down">
-        <img src="images/todo.png" class="todoimg"><br>
-        <a href="https://mytodoplanner.vercel.app/">
-          <p>ToDo</p>
-        </a>
-        <div class="drop">
-          <input type="button" value="Description" class="btn btn-danger" onclick="drop2()">
-          <p id="i2descp"> This Planner app helps you manage your daily tasks. You can add new tasks by typing in the input field and clicking the "+" button, and they’ll instantly appear on your list. You can also remove tasks by clicking the trash icon next to each one. The app keeps your list updated in real-time, so you can easily keep track of what you need to do.
-            <a href="https://mytodoplanner.vercel.app/">Click Here</a>
-          </p>
-          </ul>
-
         </div>
       </div>
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
