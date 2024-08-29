@@ -369,6 +369,7 @@ a p{
     background-position: center;
     background-repeat: repeat;
 }
+
 @media (max-width:768px) {
     .cont{
         padding-left: 15%;
@@ -393,4 +394,5 @@ a p{
         background-position: center;
         background-repeat: repeat;
     }
+
 }
