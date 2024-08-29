@@ -365,6 +365,9 @@ a p{
     line-height: 2.3;
     padding: 2%;
 }
+.bgimg-proj{
+    display: none;
+}
 @media (max-width:768px) {
     .cont{
         padding-left: 15%;
@@ -379,6 +382,16 @@ a p{
     }
     .row{
         width: 102%;
+    }
+    #myVideo{
+        display: none;
+    }
+    .bgimg-proj{
+        display: block;
+        width: 100vw;
+        height: 470vh;
+        z-index: -1;
+        position: absolute;
     }
 
 }
