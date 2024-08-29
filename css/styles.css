@@ -386,12 +386,13 @@ a p{
     #myVideo{
         display: none;
     }
-    .bgimg-proj{
+    .body-p{
         display: block;
-        width: 100vw;
-        height: 480vh;
-        z-index: -1;
-        position: absolute;
+        background-image: url("/mysite/images/1.jpg");
+        background-position: center;
+        background-repeat: repeat;
     }
+
+    
 
 }
