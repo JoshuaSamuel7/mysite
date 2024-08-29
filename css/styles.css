@@ -267,6 +267,7 @@ a:hover{
     text-align: left;
     line-height: 3;
     font-size: 1.2rem;
+    color: white;
 }
 .abthead{
     padding: 1.5% 0;
@@ -283,8 +284,6 @@ a:hover{
     width: 20%;
     margin: 0 10%;
 }
-.contb{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );}
 .card{
     background-color: #FFF5E0;
     height: 250px;
@@ -293,8 +292,6 @@ a:hover{
 .card-body{
     text-align: center;
     margin-top: 35px;
-
-
 }
 .icon{
     height: 120px;
@@ -365,8 +362,12 @@ a p{
     line-height: 2.3;
     padding: 2%;
 }
-.bgimg-proj{
-    display: none;
+
+.body-p{
+    display: block;
+    background-image: url("/mysite/images/1.jpg");
+    background-position: center;
+    background-repeat: repeat;
 }
 @media (max-width:768px) {
     .cont{
@@ -392,7 +393,4 @@ a p{
         background-position: center;
         background-repeat: repeat;
     }
-
-    
-
 }
