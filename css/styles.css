@@ -389,7 +389,7 @@ a p{
     .bgimg-proj{
         display: block;
         width: 100vw;
-        height: 470vh;
+        height: 480vh;
         z-index: -1;
         position: absolute;
     }
