@@ -89,6 +89,14 @@
       ele.style.display = 'block';
     }
   }
+  function drop8() {
+    const ele = document.getElementById('i7descp');
+    if (ele.style.display == 'block') {
+      ele.style.display = 'none';
+    } else {
+      ele.style.display = 'block';
+    }
+  }
 </script>
 
 <body class="body-p">
@@ -213,6 +221,22 @@
         </div>
       </div>
       <div class="i col-lg-6" data-aos="fade-up">
+        <img src="images/bmi.png" class="todoimg"><br>
+        <a href="https://jsbmicalci.vercel.app/">
+          <p>BMI Calculator</p>
+        </a>
+        <div class="drop">
+          <input type="button" value="Description" class="btn btn-danger" onclick="drop8()">
+          <p id="i8descp">The project is built using React, with the BMI calculation logic and UI contained in a single BMICalculator component. It uses React’s useState for dynamic state management, updating the BMI and health status based on user input. Styling is handled separately in a styles.css file to ensure a clean, responsive design. The app integrates this component into the main App.js file, making it easy to use and maintain. <a href="https://jsbmicalci.vercel.app/">CLick Here</a>
+          </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="i col-lg-6" data-aos="fade-up">
         <img src="images/dice.png" class="todoimg"><br>
         <a href="dice/dicee.html">
           <p>Dice Game</p>
@@ -225,10 +249,6 @@
           </ul>
         </div>
       </div>
-    </div>
-
-
-    <div class="row">
       <div class="i col-lg-6" data-aos="fade-up">
         <img src="images/product.png" class="todoimg"><br>
         <a href="https://joshuasamuel7.github.io/productpage/">
@@ -245,6 +265,8 @@
       </div>
     </div>
   </div>
+
+  
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
