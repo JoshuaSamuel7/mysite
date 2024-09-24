@@ -90,7 +90,7 @@
     }
   }
   function drop8() {
-    const ele = document.getElementById('i7descp');
+    const ele = document.getElementById('i8descp');
     if (ele.style.display == 'block') {
       ele.style.display = 'none';
     } else {
@@ -129,8 +129,28 @@
   <div class="abthead">
     <h1>My Projects</h1>
   </div>
-  <div class="bdp">
 
+  <div class="bdp">
+    <div class="row">
+      <div class="i col-lg-6" data-aos="fade-down">
+        <img src="images/music.png" class="todoimg"><br>
+        <a href="https://jsmusic.vercel.app/" target="_blank">
+          <p>Music Player</p>
+        </a>
+        <div class="drop">
+          <input type="button" value="Description" class="btn btn-danger" onclick="drop()">
+          <p id="i1descp">The MERN Music Player Application is a full-stack web app that allows users to securely
+            upload, stream, and manage their music collection. With JWT-based authentication and OTP verification, user
+            security is ensured during registration and login. The app supports bulk music uploads with Cloudinary
+            integration, enabling users to store and manage up to 10 tracks at once. A modern and responsive UI provides
+            a seamless music streaming experience, while the recently played feature keeps track of users' listening
+            history. Built with MongoDB, Express.js, React.js, and Node.js, the app is both scalable and efficient.
+            <a href="https://jsmusic.vercel.app/" target="_blank">Click Here</a>
+          </p>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="row">
       <div class="i col-lg-6" data-aos="fade-down">
@@ -207,7 +227,7 @@
     <div class="row">
       <div class="i col-lg-6" data-aos="fade-up">
         <img src="images/news.png" class="todoimg"><br>
-        <a href="https://jsnewsletter.vercel.app"target="_blank">
+        <a href="https://jsnewsletter.vercel.app" target="_blank">
           <p>Newsletter</p>
         </a>
         <div class="drop">
@@ -227,7 +247,11 @@
         </a>
         <div class="drop">
           <input type="button" value="Description" class="btn btn-danger" onclick="drop8()">
-          <p id="i8descp">The project is built using React, with the BMI calculation logic and UI contained in a single BMICalculator component. It uses React’s useState for dynamic state management, updating the BMI and health status based on user input. Styling is handled separately in a styles.css file to ensure a clean, responsive design. The app integrates this component into the main App.js file, making it easy to use and maintain. <a href="https://jsbmicalci.vercel.app/">CLick Here</a>
+          <p id="i8descp">The project is built using React, with the BMI calculation logic and UI contained in a single
+            BMICalculator component. It uses React’s useState for dynamic state management, updating the BMI and health
+            status based on user input. Styling is handled separately in a styles.css file to ensure a clean, responsive
+            design. The app integrates this component into the main App.js file, making it easy to use and maintain. <a
+              href="https://jsbmicalci.vercel.app/">CLick Here</a>
           </p>
           </ul>
         </div>
@@ -244,7 +268,8 @@
         <div class="drop">
           <input type="button" value="Description" class="btn btn-danger" onclick="drop4()">
           <p id="i4descp">This is Dice game which occurs between two players which helps to end descions using a
-            simple dice game. This is crafted using Javascript and basic CSS. <a href="dice/dicee.html" target="_blank">CLick Here</a>
+            simple dice game. This is crafted using Javascript and basic CSS. <a href="dice/dicee.html"
+              target="_blank">CLick Here</a>
           </p>
           </ul>
         </div>
